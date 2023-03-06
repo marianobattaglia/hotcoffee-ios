@@ -29,8 +29,26 @@ This Modal View is presented once Add button is pressed on the Main View. In thi
 # API
 
 ### Get All Coffee Orders
-`https://warp-wiry-rugby.glitch.me/orders`
-*Method*: `GET`
+
+https://warp-wiry-rugby.glitch.me/orders
+
+Method: `GET`
+
+### Post a New Coffee Order
+
+https://warp-wiry-rugby.glitch.me/orders
+
+Method: `POST`
+
+Body: 
+```json
+{
+   "name": "John Doe",
+   "email": "johndoe@gmail.com",
+   "type": "Latte",
+   "size": "Large"
+}
+```
 
 
 # Author
